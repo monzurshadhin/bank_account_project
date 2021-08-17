@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank account</title>
+    <!-- telwind cdn link  -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mt-16">
+        Welcome to my <span class="font-bold text-indigo-700">Bank</span>
+      </h1>
+    </header>
+    <main>
+      <section class="login bg-purple-700 w-3/4 mx-auto mt-8 p-8 rounded-2xl">
+        <h3 class="text-3xl font-bold text-center py-10">Please login</h3>
+        <div class="">
+          <input
+            class="border border-pink-700 rounded block w-3/4 mx-auto mb-4 p-2"
+            id="user-email"
+            type="email"
+            placeholder="please Enter email"
+          />
+          <input
+            type="password"
+            class="border border-pink-700 rounded block w-3/4 mx-auto mb-4 p-2"
+            id="user-password"
+            placeholder="please Enter password"
+          />
+
+          <button
+            class="
+              bg-yellow-600
+              block
+              mx-auto
+              px-2
+              py-1
+              rounded
+              font-semibold
+              text-white
+            "
+            id="login-submit"
+          >
+            submit
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- js file link  -->
+    <script src="js/login.js"></script>
+  </body>
+</html>
